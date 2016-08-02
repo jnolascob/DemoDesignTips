@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="DemoDesignTips" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="img_people_blur" translatesAutoresizingMaskIntoConstraints="NO" id="OZB-td-wYE">
+                                <rect key="frame" x="0.0" y="0.0" width="601" height="344"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="344" id="gdL-qk-j6L"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="img_people_normal" translatesAutoresizingMaskIntoConstraints="NO" id="2E3-jQ-H4B">
+                                <rect key="frame" x="50" y="30" width="500" height="120"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="120" id="4Nm-1C-oMV"/>
+                                </constraints>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lzl-hn-T6x" customClass="RoundButton" customModule="DemoDesignTips" customModuleProvider="target">
+                                <rect key="frame" x="231" y="219" width="151" height="47"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="cuJ-LH-uOL"/>
+                                    <constraint firstAttribute="height" constant="47" id="mwB-uP-O67"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="18"/>
+                                <state key="normal" title="Follow">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Toby Eduardo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fBX-xN-HPQ">
+                                <rect key="frame" x="228" y="170" width="144" height="27"/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="22"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="2000 Follower" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QsS-g3-pAb">
+                                <rect key="frame" x="251" y="295" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Jonathan Nolasco" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ytg-bg-nFS">
+                                <rect key="frame" x="237" y="389" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Miguel Garrafa" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="up4-IC-Om5">
+                                <rect key="frame" x="244" y="526" width="113" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Jorge Ramirez" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X1R-tI-BTq">
+                                <rect key="frame" x="245" y="459" width="110" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="fBX-xN-HPQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0MS-QR-jxW"/>
+                            <constraint firstItem="fBX-xN-HPQ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4CV-MS-NCO"/>
+                            <constraint firstItem="Lzl-hn-T6x" firstAttribute="top" secondItem="fBX-xN-HPQ" secondAttribute="bottom" constant="22" id="4R0-dH-uyl"/>
+                            <constraint firstItem="Ytg-bg-nFS" firstAttribute="top" secondItem="OZB-td-wYE" secondAttribute="bottom" constant="45" id="5wi-7a-cNa"/>
+                            <constraint firstItem="QsS-g3-pAb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="A1Z-tw-Ue5"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="OZB-td-wYE" secondAttribute="trailing" constant="-20" id="AM7-mO-dVX"/>
+                            <constraint firstItem="X1R-tI-BTq" firstAttribute="top" secondItem="Ytg-bg-nFS" secondAttribute="bottom" constant="49" id="CGz-1g-GvH"/>
+                            <constraint firstItem="up4-IC-Om5" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="CLK-NU-rqF"/>
+                            <constraint firstItem="OZB-td-wYE" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" id="EWh-Ga-KyJ"/>
+                            <constraint firstItem="Lzl-hn-T6x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FP2-cq-fdK"/>
+                            <constraint firstItem="X1R-tI-BTq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NRw-b2-Xkw"/>
+                            <constraint firstItem="QsS-g3-pAb" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="PLz-7H-fos"/>
+                            <constraint firstItem="OZB-td-wYE" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="-20" id="VZf-Ho-7vs"/>
+                            <constraint firstItem="Ytg-bg-nFS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YhH-gD-xhL"/>
+                            <constraint firstItem="up4-IC-Om5" firstAttribute="top" secondItem="X1R-tI-BTq" secondAttribute="bottom" constant="46" id="eHZ-6L-mE3"/>
+                            <constraint firstItem="QsS-g3-pAb" firstAttribute="top" secondItem="Lzl-hn-T6x" secondAttribute="bottom" constant="22" id="iAk-Va-LZx"/>
+                            <constraint firstItem="Lzl-hn-T6x" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="omU-2t-0ke"/>
+                            <constraint firstItem="fBX-xN-HPQ" firstAttribute="top" secondItem="2E3-jQ-H4B" secondAttribute="bottom" constant="20" id="srQ-UJ-loH"/>
+                            <constraint firstItem="2E3-jQ-H4B" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="u8a-qD-IQT"/>
+                            <constraint firstItem="2E3-jQ-H4B" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="10" id="y1m-1b-6Hh"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="507" y="456"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="img_people_blur" width="500" height="500"/>
+        <image name="img_people_normal" width="500" height="500"/>
+    </resources>
+</document>
